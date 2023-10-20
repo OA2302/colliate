@@ -32,12 +32,10 @@ li {
     list-style: none;
 }
 .nav {
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     gap: 68%;
-}
-.nav img {
-    padding-left: 130px;
+    padding-left: 210px;
 }
 ul {
     display: flex;
@@ -45,7 +43,7 @@ ul {
 }
 .h1 h1 {
     font-size: 55px;
-    margin-top: 6%;
+    margin-top: 5%;
     padding-left: 30%;
     font-weight: normal;
     margin-bottom: 100px;
@@ -215,17 +213,18 @@ table {
         color: #0081eb;
     }
     li {
-        font-size: 7px;
         list-style: none;
+        & a {
+            font-size: 7px;
+            color: #fff;
+        }
     }
     .nav {
-        padding-top: 20px;
+        padding-top: 10px;
         display: flex;
         gap: 58%;
-    }
-    .nav img {
-        padding-left: 30px;
-    }
+        padding-left: 70px;
+    } 
     ul {
         display: flex;
         gap: 10px;
@@ -309,7 +308,7 @@ table {
         padding: 20px;
         padding-left: 0;
         margin-top: 130px;
-        padding-right: 150px;
+        padding-right: 100px;
         & .img {
             display: flex;
             gap: 10px;
